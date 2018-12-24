@@ -1,15 +1,36 @@
-let temp = 31
+let temp = 80
 // sees if it is true or false, checks if temp is the value after triple =, !== means not equal 
-let isfreezing = temp === 31
+
+if (temp <= 32) {
+    console.log('It is freezing outside!')
+}
+
+if (temp >= 110) {
+    console.log('it is way too hot outside!')
+
+}
 
 
-console.log(isFreezing)
+let age = 65
 
-let age = 26
+if ( age <= 7) {
+    console.log('Child price')
+}
 
-let isChild = age <= 7
-let isSenior = age >= 65
+if ( age >= 65) {
+    console.log('Senior discount')
+}
 
-console.log(isChild)
-console.log(isSenior)
+
+
+
+
+
+// let age = 26
+
+// let isChild = age <= 7
+// let isSenior = age >= 65
+
+// console.log(isChild)
+// console.log(isSenior)
 
